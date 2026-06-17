@@ -16,8 +16,7 @@ export default function AlumnosList(){
 
   return (
     <div>
-      <h2>Alumnos</h2>
-      <table border="1" cellPadding="6">
+      <table className="styled-table">
         <thead>
           <tr><th>ID</th><th>Nombre</th><th>Apellidos</th><th>Representante</th></tr>
         </thead>
